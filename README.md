@@ -1,12 +1,12 @@
 # State-of-the-art result for all Machine Learning Problems
 
-### LAST UPDATE: 17th November 2017
+### LAST UPDATE: 20th Februray 2019
 
-### NEWS: I am looking for a Collaborator esp who does research in NLP, Computer Vision and Reinforcement learning. If you are not a researcher, but you are willing, contact me. Email me: redditsota@gmail.com
+### NEWS: I am looking for a Collaborator esp who does research in NLP, Computer Vision and Reinforcement learning. If you are not a researcher, but you are willing, contact me. Email me: yxt.stoaml@gmail.com
 
 This repository provides state-of-the-art (SoTA) results for all machine learning problems. We do our best to keep this repository up to date.  If you do find a problem's SoTA result is out of date or missing, please raise this as an issue (with this information: research paper name, dataset, metric, source code and year). We will fix it immediately.
 
-You can also submit this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeMnkZ24YqiNkQEER_ihckenijBP7GpQpv8ZrkBnY7ythCItw/viewform?usp=sf_link) if you are new to Github.
+You can also submit this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe_fFZVCeCVRGGgOQIpoQSXY7mZWynsx7g6WxZEVpO5vJioUA/viewform?embedded=true) if you are new to Github.
 
 This is an attempt to make  one stop for all types of machine learning problems state of the art result. I can not do this alone. I need help from everyone. Please submit the Google form/raise an issue if you find SOTA result for a dataset.  Please share this on Twitter, Facebook, and other social media.
 
@@ -41,6 +41,13 @@ This summary is categorized into:
       <th align="center" width="20%">Source Code</th>
       <th align="center" width="10%">Year</th>
     </tr>  
+    <tr>
+      <td><a href='https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf'> Language Models are Unsupervised Multitask Learners </a></td>
+      <td align="left"><ul><li> PTB </li><li> WikiText-2 </li></ul></td>
+      <td align="left"><ul><li> Perplexity: 35.76 </li><li> Perplexity: 18.34 </li></ul></td>
+      <td align="left"><a href='https://github.com/openai/gpt-2'>Tensorflow </a></td>
+      <td align="left">2019</td>   
+    </tr>
     <tr>
       <td><a href='https://arxiv.org/pdf/1711.03953.pdf'>BREAKING THE SOFTMAX BOTTLENECK: A HIGH-RANK RNN LANGUAGE MODEL </a></td>
       <td align="left"><ul><li> PTB </li><li> WikiText-2 </li></ul></td>
@@ -94,6 +101,13 @@ This summary is categorized into:
       <th align="center" width="10%">Year</th>
     </tr>
     <tr>
+      <td><a href='https://arxiv.org/pdf/1808.09381v2.pdf'> Understanding Back-Translation at Scale </a></td>
+      <td align="left"> <ul><li>WMT 2014 English-to-French </li><li>WMT 2014 English-to-German </li></ul></td>
+      <td align="left"> <ul><li>  BLEU: 45.6 </li><li>   BLEU: 35.0 </li></ul> </td>
+      <td align="left"> <ul><li><a href='https://github.com/pytorch/fairseq'>PyTorch</a></li></ul></td>
+      <td align="left">2018</td>    
+    </tr>
+    <tr>
       <td><a href='https://arxiv.org/pdf/1711.02132.pdf'>WEIGHTED TRANSFORMER NETWORK FOR
 MACHINE TRANSLATION</a></td>
       <td align="left"> <ul><li>WMT 2014 English-to-French </li><li>WMT 2014 English-to-German </li></ul></td>
@@ -113,7 +127,7 @@ MACHINE TRANSLATION</a></td>
 NEURAL MACHINE TRANSLATION</a></td>
       <td align="left"> <ul><li> WMT16 Ro→En </li></ul></td>
       <td align="left"> <ul><li> BLEU: 31.44 </li></ul> </td>
-      <td align="left"><ul><li><a href=''>NOT FOUND</a></ul></li></td>
+      <td align="left"><ul><li><a href='https://github.com/salesforce/nonauto-nmt'>PyTorch</a></ul></li></td>
       <td align="left">2017</td>    
       </tr>
           <tr>
@@ -141,14 +155,14 @@ NEURAL MACHINE TRANSLATION</a></td>
       <td><a href='https://arxiv.org/abs/1705.09207'> Learning Structured Text Representations </a></td>
       <td align="left">Yelp</td>
       <td align="left">Accuracy: 68.6</td>
-      <td align="left"> <ul><li><a href=''>NOT FOUND</a></ul></li></td>
+      <td align="left"> <ul><li><a href='https://github.com/nlpyang/structured'>Tensorflow</a></ul></li></td>
       <td align="left">2017</td>    
     </tr>
     <tr>
       <td><a href='https://arxiv.org/pdf/1710.00519.pdf'>Attentive Convolution</a></td>
       <td align="left">Yelp</td>
       <td align="left">Accuracy: 67.36</td>
-      <td align="left"> <ul><li><a href=''>NOT FOUND</a></ul></li></td>
+      <td align="left"> <ul><li><a href='https://github.com/yinwenpeng/Attentive_Convolution'>Theano</a></ul></li></td>
       <td align="left">2017</td>   
     </tr>
   </tbody>
@@ -175,7 +189,14 @@ Leader board:
       <td align="left">Stanford Natural Language Inference (SNLI)</td>
       <td align="left">Accuracy: 88.9</td>
       <td align="left"><a href='https://github.com/YichenGong/Densely-Interactive-Inference-Network'>Tensorflow</a> </td>
-      <td align="left">2017</td>    
+      <td align="left">2017</td>
+  </tr>
+    <tr>
+      <td><a href=https://arxiv.org/pdf/1810.04805.pdf> BERT-LARGE (ensemble) </a></td>
+      <td align="left">Multi-Genre Natural Language Inference (MNLI)</td>
+      <td align="left"><ul><li>Matched accuracy: 86.7</li><li>Mismatched accuracy: 85.9</td>
+      <td align="left"><ul><li><a href='https://github.com/google-research/bert'>Tensorflow</a></li><li><a href='https://github.com/huggingface/pytorch-pretrained-BERT'>PyTorch</a></li> </td>
+      <td align="left">2018</td>
   </tr>
   </tbody>
 </table>
@@ -195,10 +216,10 @@ Leader Board
       <th align="center" width="10%">Year</th>
     </tr>
     <tr>
-      <td><a href='https://rajpurkar.github.io/SQuAD-explorer/'> QANet (ensemble) </a></td>
+      <td><a href='https://arxiv.org/pdf/1810.04805.pdf'> BERT-LARGE (ensemble) </a></td>
       <td align="left">The Stanford Question Answering Dataset</td>
-      <td align="left"><ul><li> Exact Match: 83.877 </li><li> F1: 89.737 </li></ul></td>
-      <td align="left"><a href='https://github.com/NLPLearn/QANet'>Tensorflow</a> </td>
+      <td align="left"><ul><li> Exact Match: 87.4 </li><li> F1: 93.2 </li></ul></td>
+      <td align="left"><ul><li><a href='https://github.com/google-research/bert'>Tensorflow</a></li><li><a href='https://github.com/huggingface/pytorch-pretrained-BERT'>PyTorch</a> </td>
       <td align="left">2018</td>    
   </tr>
   </tbody>
@@ -269,6 +290,13 @@ Research Paper | Datasets  | Metric | Source Code | Year
       <td align="left">2011</td>    
     </tr>
     <tr>
+      <td><a href='https://arxiv.org/pdf/1811.06965.pdf'>Giant AmoebaNet with GPipe</a></td>
+      <td align="left"> <ul><li> CIFAR-10 </li> <li> CIFAR-100</li><li> ImageNet-1k</li><li> ...</li></ul></td>
+      <td align="left"> <ul><li> Test Error: 1.0% </li> <li> Test Error: 8.7% </li><li> Top-1 Error 15.7</li><li> ...</li></ul> </td>
+      <td align="left"> <ul><li> <a href=''>NOT FOUND</a> </li></ul> </td>
+      <td align="left">2018</td>    
+    </tr>
+    <tr>
       <td><a href='https://openreview.net/pdf?id=S1NHaMW0b'>ShakeDrop regularization </a></td>
       <td align="left"> <ul><li> CIFAR-10 </li> <li> CIFAR-100</li></ul></td>
       <td align="left"> <ul><li> Test Error: 2.31% </li> <li> Test Error: 12.19% </li></ul> </td>
@@ -326,7 +354,7 @@ Research Paper | Datasets  | Metric | Source Code | Year
       <td><a href='https://arxiv.org/pdf/1611.05431.pdf'>Aggregated Residual Transformations for Deep Neural Networks </a></td>
       <td align="left"> <ul><li>   ImageNet-1k  </li></ul></td>
       <td align="left"> <ul><li> Top-1 Error: 20.4% </li></ul> </td>
-      <td align="left"> <ul><li>  <a href='https://github.com/facebookresearch/ResNeXt'>PyTorch</a> </li></ul> </td>
+      <td align="left"> <ul><li>  <a href='https://github.com/facebookresearch/ResNeXt'>Torch</a> </li></ul> </td>
       <td align="left">2016</td>    
     </tr>
   </tbody>
@@ -577,4 +605,4 @@ USING MONOLINGUAL CORPORA ONLY</a></td>
   </tbody>
 </table>  
 
-Email: redditsota@gmail.com 
+Email: yxt.stoaml@gmail.com
